@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <main class="main">
+      <div class="result">
+        <h2 class="result__title">Your Result</h2>
+        <div class="result__score score">
+          <span class="score__your">76</span>
+          <span class="score__max">of 100</span>
+        </div>
+        <h1 class="result__status">Great</h1>
+        <p class="result__description">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <div class="summary">
+        <h2 class="summary__title"> Summary</h2>
+        <div class="summary__values">
+          <div class="value value_red">
+            <div class="value__title title">
+              <img src="./assets/images/icon-reaction.svg" alt="Reaction" class="title__icon">
+              <div class="title__text">Reaction</div>
+            </div>
+            <div class="value__score">
+              <b class="value__score_bold">80</b><span class="value__score_normal"> / 100</span>
+            </div>
+          </div>
+          <div class="value value_yellow">
+            <div class="value__title title">
+              <img src="./assets/images/icon-memory.svg" alt="Memory" class="title__icon">
+              <div class="title__text">Memory</div>
+            </div>
+            <div class="value__score">
+              <b class="value__score_bold">92</b><span class="value__score_normal"> / 100</span>
+            </div>
+          </div>
+          <div class="value value_green">
+            <div class="value__title title">
+              <img src="./assets/images/icon-verbal.svg" alt="Verbal" class="title__icon">
+              <div class="title__text">Verbal</div>
+            </div>
+            <div class="value__score">
+              <b class="value__score_bold">61</b><span class="value__score_normal"> / 100</span>
+            </div>
+          </div>
+          <div class="value value_blue">
+            <div class="value__title title">
+              <img src="./assets/images/icon-visual.svg" alt="Visual" class="title__icon">
+              <div class="title__text">Visual</div>
+            </div>
+            <div class="value__score">
+              <b class="value__score_bold">72</b><span class="value__score_normal"> / 100</span>
+            </div>
+          </div>
+        </div>
+        <button class="btn">Continue</button>
+    </main>
+
+    <footer class="footer">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/Bumble-sakh">Igor Asessorov</a>.
+    </footer>
+
+  </body>
+</html>
