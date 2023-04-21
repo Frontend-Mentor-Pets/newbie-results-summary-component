@@ -188,9 +188,9 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 376px) {
+@media (max-width: 760px) {
   .main {
-    width: 100%;
+    width: 375px;
     height: 100%;
     flex-direction: column;
     border-radius: 0;
